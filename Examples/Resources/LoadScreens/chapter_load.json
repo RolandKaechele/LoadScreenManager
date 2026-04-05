@@ -1,0 +1,19 @@
+{
+  "id": "chapter_load",
+  "label": "Chapter Loading Screen",
+  "backgroundResource": "Sprites/LoadScreens/background_space",
+  "spinnerResource": "Sprites/LoadScreens/spinner_chapter",
+  "progressFillResource": "Sprites/LoadScreens/progress_fill_chapter",
+  "tipPool": [
+    "The spider mutations continue to spread beyond the quarantine zone...",
+    "Jan Tenner prepares for the next mission...",
+    "INTERPOOL agents are mobilising across three sectors...",
+    "New threat detected in grid sector 7..."
+  ],
+  "showProgress": true,
+  "showSpinner": true,
+  "showTips": true,
+  "tipRotationInterval": 5.0,
+  "fadeInDuration": 0.4,
+  "fadeOutDuration": 0.4
+}

@@ -1,0 +1,29 @@
+{
+  "name": "com.rolandkaechele.loadscreenmanager",
+  "displayName": "Load Screen Manager",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "A modular Unity load-screen framework with JSON-authored definitions, progress bar, rotating tips, spinner animation, and optional MapLoaderFramework, GameManager, StateManager, and DOTween Pro integration.",
+  "author": {
+    "name": "Roland Kaechele",
+    "url": "https://github.com/RolandKaechele/LoadScreenManager"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RolandKaechele/LoadScreenManager.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "unity",
+    "loading",
+    "loadscreen",
+    "ui",
+    "transition",
+    "rpg",
+    "framework"
+  ],
+  "documentationUrl": "https://github.com/RolandKaechele/LoadScreenManager#readme",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  }
+}
