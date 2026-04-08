@@ -1,19 +1,19 @@
 {
-  "id": "default_load",
-  "label": "Default Loading Screen",
-  "backgroundResource": "Sprites/LoadScreens/background_generic",
-  "spinnerResource": "Sprites/LoadScreens/spinner_default",
-  "progressFillResource": "Sprites/LoadScreens/progress_fill_default",
-  "tipPool": [
-    "Scanning for alien life forms...",
-    "Calibrating quantum dampeners...",
-    "Polishing spacesuit boots...",
-    "Checking communication arrays..."
-  ],
-  "showProgress": true,
-  "showSpinner": true,
-  "showTips": true,
-  "tipRotationInterval": 4.0,
-  "fadeInDuration": 0.3,
-  "fadeOutDuration": 0.3
+    "id":  "default_load",
+    "label":  "Default Loading Screen",
+    "backgroundResource":  "Sprites/LoadScreens/background_generic",
+    "spinnerResource":  "Sprites/LoadScreens/spinner_default",
+    "progressFillResource":  "Sprites/LoadScreens/progress_fill_default",
+    "tipPool":  [
+                    "Scanning for alien life forms...",
+                    "Calibrating quantum dampeners...",
+                    "Polishing spacesuit boots...",
+                    "Checking communication arrays..."
+                ],
+    "showProgress":  true,
+    "showSpinner":  true,
+    "showTips":  true,
+    "tipRotationInterval":  4.0,
+    "fadeInDuration":  0.3,
+    "fadeOutDuration":  0.3
 }
