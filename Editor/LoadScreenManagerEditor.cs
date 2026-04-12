@@ -20,6 +20,9 @@ namespace LoadScreenManager.Editor
         {
             DrawDefaultInspector();
 
+            EditorGUILayout.Space(4);
+            if (GUILayout.Button("Open JSON Editor")) LoadScreenJsonEditorWindow.ShowWindow();
+
             var mgr = (LoadScreenManager.Runtime.LoadScreenManager)target;
 
             EditorGUILayout.Space(8);

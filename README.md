@@ -274,3 +274,12 @@ Set `autoHideDelay` > 0 as a fallback if no `OnAfterChapterLoad` / `OnMapLoaded`
 Add `MiniGameLoadScreenBridge` to the manager GameObject.  
 The bridge shows the load screen on `OnMiniGameStarted` and hides it on `OnMiniGameCompleted` or `OnMiniGameAborted`.  
 Individual phases can be disabled via `showOnStart`, `hideOnComplete`, `hideOnAbort` in the Inspector.
+
+
+## Editor Tools
+
+Open via **JSON Editors → Load Screen Manager** in the Unity menu bar, or via the **Open JSON Editor** button in the LoadScreenManager Inspector.
+
+The editor is a two-panel window: file list on the left (Browse / Create New / Delete) and the definition editor on the right. Files live in `Assets/Resources/LoadScreens/`.
+
+With **ODIN_INSPECTOR** active, the definition editor uses Odin's enhanced renderer.
