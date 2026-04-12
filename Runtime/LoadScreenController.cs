@@ -114,7 +114,7 @@ namespace LoadScreenManager.Runtime
             if (spinnerTransform != null) spinnerTransform.gameObject.SetActive(def?.showSpinner ?? true);
 
             // Progress reset
-            SetProgress(0f);
+            UpdateProgress(0f);
 
             // Tips
             bool useTips = def?.showTips ?? true;

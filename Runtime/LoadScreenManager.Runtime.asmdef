@@ -1,7 +1,7 @@
 {
     "name": "LoadScreenManager.Runtime",
     "rootNamespace": "LoadScreenManager.Runtime",
-    "references": [],
+    "references": ["Unity.TextMeshPro"],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
